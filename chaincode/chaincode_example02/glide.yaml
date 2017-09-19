@@ -1,0 +1,6 @@
+package: github.com/hyperledger/fabric-samples/chaincode/chaincode_example02
+import:
+- package: github.com/hyperledger/fabric
+  subpackages:
+  - core/chaincode/shim
+  - protos/peer
